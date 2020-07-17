@@ -61,13 +61,22 @@ body{
     padding: 10px;
     display: inline-block;
     margin-right: 20px;   
-    transition: 0.3s ease-in ;
+    transition: 0.4s ease-in ;
 }
 .tag{
     margin-top: 20px;
     text-align: center;
 }
 .choice:hover{
-    background-color: #E2584D;
+    background-color: #1a1c20;
     cursor: pointer;
+}
+.greenRing{
+    border: 3px solid rgb(92, 212, 92);
+}
+.redRing{
+    border: 3px solid rgb(245, 65, 65);
+}
+.grayRing{
+    border: 3px solid gray;
 }
